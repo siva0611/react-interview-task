@@ -1,0 +1,56 @@
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--primary-background);
+  }
+  
+  .landing-box {
+    text-align: center;
+    background-color: var(--secondary-background);
+    padding: 3rem 4rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
+  
+  .landing-box h1 {
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+  }
+  
+  .landing-box p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+  }
+  
+  .role-selection {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .role-button {
+    flex-grow: 1;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.2s;
+  }
+  
+  .role-button.user {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .role-button.user:hover {
+    opacity: 0.9;
+  }
+  
+  .role-button.admin {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  .role-button.admin:hover {
+    background-color: #f1effe;
+  }

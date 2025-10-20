@@ -1,0 +1,261 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Books"
+    },
+    {
+      "id": "3",
+      "name": "Apparel"
+    },
+    {
+      "id": "4",
+      "name": "Home Goods"
+    }
+  ],
+  "products": [
+    {
+      "id": "101",
+      "name": "Smartphone Pro X",
+      "description": "The latest and greatest smartphone with a stunning display.",
+      "regularPrice": 85000,
+      "salePrice": 79999,
+      "stock": 4,
+      "categoryId": 1,
+      "image": "/images/smartphone.png"
+    },
+    {
+      "id": "102",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "description": "Immerse yourself in music with these high-quality headphones.",
+      "regularPrice": 18000,
+      "salePrice": 14500,
+      "stock": 0,
+      "categoryId": 1,
+      "image": "/images/headphones.png"
+    },
+    {
+      "id": "201",
+      "name": "The Art of React",
+      "description": "A deep dive into modern React patterns and practices.",
+      "regularPrice": 2500,
+      "salePrice": 1999,
+      "stock": 27,
+      "categoryId": 2,
+      "image": "/images/react-book.png"
+    },
+    {
+      "id": "301",
+      "name": "Classic Cotton T-Shirt",
+      "description": "A comfortable and stylish t-shirt for everyday wear.",
+      "regularPrice": 1200,
+      "salePrice": 999,
+      "stock": 116,
+      "categoryId": 3,
+      "image": "/images/t-shirt.png"
+    },
+    {
+      "id": "401",
+      "name": "Smart Coffee Maker",
+      "description": "Brew the perfect cup of coffee from your phone.",
+      "regularPrice": 8000,
+      "salePrice": 6999,
+      "stock": 25,
+      "categoryId": 4,
+      "image": "/images/coffee-maker.png"
+    }
+  ],
+  "users": [],
+  "wishlists": [],
+  "carts": [],
+  "orders": [
+    {
+      "id": "974e",
+      "userId": "66XKGQecrPO8SRWabFUN0TAmXIT2",
+      "items": [
+        {
+          "id": "201",
+          "name": "The Art of React",
+          "description": "A deep dive into modern React patterns and practices.",
+          "regularPrice": 2500,
+          "salePrice": 1999,
+          "stock": 50,
+          "categoryId": 2,
+          "image": "/images/react-book.png",
+          "quantity": 1
+        }
+      ],
+      "shippingAddressId": "93bf",
+      "subtotal": 1999,
+      "status": "Delivered",
+      "orderDate": "2025-10-20T05:05:08.219Z"
+    },
+    {
+      "id": "23a0",
+      "userId": "66XKGQecrPO8SRWabFUN0TAmXIT2",
+      "items": [
+        {
+          "id": "201",
+          "name": "The Art of React",
+          "description": "A deep dive into modern React patterns and practices.",
+          "regularPrice": 2500,
+          "salePrice": 1999,
+          "stock": 49,
+          "categoryId": 2,
+          "image": "/images/react-book.png",
+          "quantity": 22
+        }
+      ],
+      "shippingAddressId": "93bf",
+      "subtotal": 43978,
+      "status": "On Process",
+      "orderDate": "2025-10-20T05:12:45.251Z"
+    },
+    {
+      "id": "6c2d",
+      "userId": "66XKGQecrPO8SRWabFUN0TAmXIT2",
+      "items": [
+        {
+          "id": "101",
+          "name": "Smartphone Pro X",
+          "description": "The latest and greatest smartphone with a stunning display.",
+          "regularPrice": 85000,
+          "salePrice": 79999,
+          "stock": 15,
+          "categoryId": 1,
+          "image": "/images/smartphone.png",
+          "quantity": 10
+        }
+      ],
+      "shippingAddressId": "93bf",
+      "subtotal": 799990,
+      "status": "On Process",
+      "orderDate": "2025-10-20T05:13:01.525Z"
+    },
+    {
+      "id": "43ab",
+      "userId": "66XKGQecrPO8SRWabFUN0TAmXIT2",
+      "items": [
+        {
+          "id": "301",
+          "name": "Classic Cotton T-Shirt",
+          "description": "A comfortable and stylish t-shirt for everyday wear.",
+          "regularPrice": 1200,
+          "salePrice": 999,
+          "stock": 120,
+          "categoryId": 3,
+          "image": "/images/t-shirt.png",
+          "quantity": 1
+        }
+      ],
+      "shippingAddressId": "93bf",
+      "subtotal": 999,
+      "status": "On Process",
+      "orderDate": "2025-10-20T06:08:43.422Z"
+    },
+    {
+      "id": "ab8f",
+      "userId": "66XKGQecrPO8SRWabFUN0TAmXIT2",
+      "items": [
+        {
+          "id": "301",
+          "name": "Classic Cotton T-Shirt",
+          "description": "A comfortable and stylish t-shirt for everyday wear.",
+          "regularPrice": 1200,
+          "salePrice": 999,
+          "stock": 119,
+          "categoryId": 3,
+          "image": "/images/t-shirt.png",
+          "quantity": 1
+        }
+      ],
+      "shippingAddressId": "93bf",
+      "subtotal": 999,
+      "status": "Delivered",
+      "orderDate": "2025-10-20T06:09:17.757Z"
+    },
+    {
+      "id": "bde0",
+      "userId": "66XKGQecrPO8SRWabFUN0TAmXIT2",
+      "items": [
+        {
+          "id": "101",
+          "name": "Smartphone Pro X",
+          "description": "The latest and greatest smartphone with a stunning display.",
+          "regularPrice": 85000,
+          "salePrice": 79999,
+          "stock": 5,
+          "categoryId": 1,
+          "image": "/images/smartphone.png",
+          "quantity": 1
+        }
+      ],
+      "shippingAddressId": "93bf",
+      "subtotal": 79999,
+      "status": "On Process",
+      "orderDate": "2025-10-20T06:14:10.910Z"
+    },
+    {
+      "id": "9f88",
+      "userId": "66XKGQecrPO8SRWabFUN0TAmXIT2",
+      "items": [
+        {
+          "id": "301",
+          "name": "Classic Cotton T-Shirt",
+          "description": "A comfortable and stylish t-shirt for everyday wear.",
+          "regularPrice": 1200,
+          "salePrice": 999,
+          "stock": 118,
+          "categoryId": 3,
+          "image": "/images/t-shirt.png",
+          "quantity": 1
+        }
+      ],
+      "shippingAddressId": "93bf",
+      "subtotal": 999,
+      "status": "On Process",
+      "orderDate": "2025-10-20T09:01:22.819Z"
+    },
+    {
+      "id": "6763",
+      "userId": "66XKGQecrPO8SRWabFUN0TAmXIT2",
+      "items": [
+        {
+          "id": "301",
+          "name": "Classic Cotton T-Shirt",
+          "description": "A comfortable and stylish t-shirt for everyday wear.",
+          "regularPrice": 1200,
+          "salePrice": 999,
+          "stock": 117,
+          "categoryId": 3,
+          "image": "/images/t-shirt.png",
+          "quantity": 1
+        }
+      ],
+      "shippingAddressId": "c20d",
+      "subtotal": 999,
+      "status": "Delivered",
+      "orderDate": "2025-10-20T09:05:26.198Z"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "c20d",
+      "street": "Thiruvalluvar Nagar",
+      "city": "Chennai",
+      "zip": "600041",
+      "userId": "66XKGQecrPO8SRWabFUN0TAmXIT2"
+    },
+    {
+      "id": "892e",
+      "street": "Thiruvalluvar Nagar",
+      "city": "Chennai",
+      "zip": "600041",
+      "userId": "66XKGQecrPO8SRWabFUN0TAmXIT2"
+    }
+  ]
+}

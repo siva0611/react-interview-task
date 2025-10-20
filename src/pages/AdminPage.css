@@ -1,0 +1,41 @@
+.order-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.order-card-admin {
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background-color: var(--secondary-background);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.order-card-admin h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.order-card-admin p {
+  margin: 0.5rem 0;
+  color: var(--text-secondary);
+}
+
+.status-control {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.status-control label {
+  font-weight: 500;
+}
+
+.status-control select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  font-size: 1rem;
+}
