@@ -1,16 +1,63 @@
-# React + Vite
+React Developer Interview Task -VoltCart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete front-end application for a modern e-commerce store, built as a submission for a React Developer interview task. The project simulates a full user journey, from browsing products to placing an order, and includes a simplified admin panel for order management.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dynamic Product Catalog: Browse products with real-time search and sorting.
 
-## React Compiler
+User Authentication: Secure login/logout with Google (OAuth) via Firebase.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Shopping Cart & Wishlist: Fully functional cart and wishlist with intuitive UI feedback.
 
-## Expanding the ESLint configuration
+Checkout Flow: Users can manage shipping addresses and confirm orders, which updates product stock in the database.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Order History: A detailed history of all past orders and their real-time status.
+
+Admin Panel: A separate admin page (/admin) to view all user orders and update their status.
+
+🚀 Tech Stack
+
+Front-End: React, Vite, React Router
+
+State Management: React Context API
+
+Backend (Simulated): json-server
+
+Authentication: Firebase Authentication
+
+Notifications: react-hot-toast
+
+⚙️ Getting Started
+
+1. Clone the repository:
+
+git clone [https://github.com/siva0611/react-interview-task.git](https://github.com/siva0611/react-interview-task.git)
+cd react-interview-task
+
+2. Install dependencies:
+
+npm install
+
+
+3. Set up Firebase Environment Variables:
+
+Create a .env file in the project root.
+
+Add your Firebase project's configuration keys, prefixed with VITE_. For example: VITE_API_KEY="your-key-here".
+
+4. Run the application:
+
+You need two terminals running at the same time.
+
+Terminal 1 (API Server):
+
+npx json-server --watch db.json --port 3001
+
+
+Terminal 2 (React App):
+
+npm run dev
+
+
+The application will be available at http://localhost:5173.
